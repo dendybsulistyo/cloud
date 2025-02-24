@@ -21,6 +21,61 @@
     </head>
     <body class="bg-[#FDFDFC] dark:bg-[#0a0a0a] text-[#1b1b18] flex p-6 lg:p-8 items-center lg:justify-center min-h-screen flex-col">
 
-        Testing
+        <!-- Hero -->
+<div class="relative overflow-hidden before:absolute before:top-0 before:start-1/2 before:bg-[url('https://preline.co/assets/svg/examples/polygon-bg-element.svg')] dark:before:bg-[url('https://preline.co/assets/svg/examples-dark/polygon-bg-element.svg')] before:bg-no-repeat before:bg-top before:bg-cover before:size-full before:-z-[1] before:transform before:-translate-x-1/2">
+    <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-10">
+      <!-- Announcement Banner -->
+      <div class="flex justify-center">
+        <a class="inline-flex items-center p-1 text-sm text-gray-800 transition bg-white border border-gray-200 rounded-full gap-x-2 ps-3 hover:border-gray-300 focus:outline-none focus:border-gray-300 dark:bg-neutral-800 dark:border-neutral-700 dark:text-neutral-200 dark:hover:border-neutral-600 dark:focus:border-neutral-600" href="#">
+          PRO release - Join to waitlist
+          <span class="py-1.5 px-2.5 inline-flex justify-center items-center gap-x-2 rounded-full bg-gray-200 font-semibold text-sm text-gray-600 dark:bg-neutral-700 dark:text-neutral-400">
+            <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+          </span>
+        </a>
+      </div>
+      <!-- End Announcement Banner -->
+
+      <!-- Title -->
+      <div class="max-w-2xl mx-auto mt-5 text-center">
+        <h1 class="block text-4xl font-bold text-gray-800 md:text-5xl lg:text-6xl dark:text-neutral-200">
+          Let's Build
+          <span class="text-transparent bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600">Together</span>
+        </h1>
+      </div>
+      <!-- End Title -->
+
+      <div class="max-w-3xl mx-auto mt-5 text-center">
+        <p class="text-lg text-gray-600 dark:text-neutral-400">Preline UI is an open-source set of prebuilt UI components, ready-to-use examples and Figma design system based on the utility-first Tailwind CSS framework.</p>
+      </div>
+
+      <!-- Buttons -->
+      <div class="flex justify-center gap-3 mt-8">
+        <a class="inline-flex items-center justify-center px-4 py-3 text-sm font-medium text-center text-white border border-transparent rounded-md gap-x-3 bg-gradient-to-tl from-blue-600 to-violet-600 hover:from-violet-600 hover:to-blue-600 focus:outline-none focus:from-violet-600 focus:to-blue-600" href="#">
+          Get started
+          <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+        </a>
+        <button type="button" class="relative inline-flex items-center p-2 font-mono text-sm text-gray-800 bg-white border border-gray-200 rounded-lg shadow-sm group ps-3 gap-x-2 hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800">
+          $ npm i preline
+          <span class="flex items-center justify-center bg-gray-200 rounded-md size-7 dark:bg-neutral-700 dark:text-neutral-400">
+            <svg class="transition shrink-0 size-4 group-hover:rotate-6" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/></svg>
+          </span>
+        </button>
+      </div>
+      <!-- End Buttons -->
+
+      <div class="flex items-center justify-center mt-5 gap-x-1 sm:gap-x-3">
+        <span class="text-sm text-gray-600 dark:text-neutral-400">Package Manager:</span>
+        <span class="text-sm font-bold text-gray-900 dark:text-white">npm</span>
+        <svg class="text-gray-300 size-5 dark:text-neutral-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M6 13L10 3" stroke="currentColor" stroke-linecap="round"/>
+        </svg>
+        <a class="inline-flex items-center text-sm font-medium text-blue-600 gap-x-1 decoration-2 hover:underline focus:outline-none focus:underline dark:text-blue-500" href="#">
+          Installation Guide
+          <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- End Hero -->
     </body>
 </html>
